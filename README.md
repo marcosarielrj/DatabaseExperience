@@ -10,6 +10,13 @@ Representa o mundo real, Tem coerência, Tem um propósito
   - Bancos de dados distribuídos
   - Outros.
 ## SGBD - Sistema de Gerenciamento de Banco de Dados(DBMS Database Manager Sistem)
+  Abordagem normal o próprio sistema gerência os dados, isso é trabalhoso, se mais de uma aplicação precisar acessar os dados fica trabalhoso.
+* Vantagens
+  - Controle de redundância
+  - Restrição de acesso - Update, Read-only
+  - Storage - prover persistência - o sistema não sabe como os arquivos são gravados eles apenas solicitam e informam  
+  - Storage - prover estrutura
+  - Backup e Recovery
 * Principais característica que definem a escolha de um SGBD.
   - Tempo de Mercado
   - Popularidade
@@ -26,6 +33,17 @@ Representa o mundo real, Tem coerência, Tem um propósito
   - Postgre SQL
   - mongo DB - noSQL - orientado a documentos. Dados em bloco, dados e metadados no mesmo bloco(objeto).
   - redis - noSQL - orientado a chave valor.
+* Abordagem de Um SGBD
+  - Abstração - Isolamento entre programa e dados
+  - Auto-descrição - possui uma descrição específica e concisa - Metadados e Schema - Estrutura bem definida dos dados sem a inserção dos mesmos.
+  - Compartilhamento - os dados podem ser compartilhados com vários sistemas/usuários - Dificuldade em integração e manutenção - Controle de concorrência - Atomicidade, ou executa a transação total ou não executa. OLTP Transação
+  - Controle de concorrência - o SGBD gerencia o acesso aos dados.
+  - Usuários de BD: 
+      - Designer - identifica os dados e requisitos - Representação e estrutura, fase preliminar, contexto de interação quais dados serão consumidos.
+      - DBA - Adminstrador do BD - Gerencia os recursos, Orquestra, Autorização de acessos.
+      - Usuários finais - 
+      - Background - Operação e Manutenção - Responsáveis pelo ambiente de software e hardware do SGBD. Ferramentas opcionais como performance, modelagem, análise.
+  
 ## Modelo Relacional -
 ## Mercado de Data
 * Engenheiro de dados - Desenho e construção, extrair os dados de fontes heterogêneas e disponibilizar para o consumo dos analistas e cientistas.
