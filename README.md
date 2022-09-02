@@ -17,6 +17,12 @@ Representa o mundo real, Tem coerência, Tem um propósito
   - Storage - prover persistência - o sistema não sabe como os arquivos são gravados eles apenas solicitam e informam  
   - Storage - prover estrutura
   - Backup e Recovery
+  - Ganhos com uso de SGBD
+   - Padronização
+   - Redução do tempo de desenvolvimento da aplicação.
+   - Flexibilidade
+   - Disponibilidade infos atualizadas
+   - Economia com escalabilidade
 * Principais característica que definem a escolha de um SGBD.
   - Tempo de Mercado
   - Popularidade
@@ -43,11 +49,13 @@ Representa o mundo real, Tem coerência, Tem um propósito
       - DBA - Adminstrador do BD - Gerencia os recursos, Orquestra, Autorização de acessos.
       - Usuários finais - 
       - Background - Operação e Manutenção - Responsáveis pelo ambiente de software e hardware do SGBD. Ferramentas opcionais como performance, modelagem, análise.
-  
-## Modelo Relacional -
+## Modelagem de Dados
+* Modelo Relacional - Entidade Relacionamento
+* UML -
 ## Mercado de Data
 * Engenheiro de dados - Desenho e construção, extrair os dados de fontes heterogêneas e disponibilizar para o consumo dos analistas e cientistas.
 * Cientista de dados - Modelagem/ Reconhecimento de Padrões, Predição - técnicas de modelagem.
 * Analista de Dados - Criação de dashboards, apresentação visual dos dados, busca entender o comportamento do negócio através dos dados.
 * Data driven - análise de dados voltada para a estratégia da empresa onde o consumidor é o centro do negócio.
 * No SQL - surge para tratar o gap deixado pelo Modelo Relacional.
+
