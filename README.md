@@ -50,8 +50,11 @@ Representa o mundo real, Tem coerência, Tem um propósito
       - Usuários finais - 
       - Background - Operação e Manutenção - Responsáveis pelo ambiente de software e hardware do SGBD. Ferramentas opcionais como performance, modelagem, análise.
 ## Modelagem de Dados
-* Modelo Relacional - Entidade Relacionamento
-* UML -
+Representação, Modelo, Referência - Possui foco na descrição e relacionamento dos elementos que compõem a representação do contexto(mini-mundo). 
+![image](https://user-images.githubusercontent.com/28981742/188493544-5acd1831-ab24-40f2-be33-fb1d9b35de3e.png)
+* Entidade-Relacionamento
+![image](https://user-images.githubusercontent.com/28981742/188493607-4786a1a2-31ca-4164-9aea-9b47ef51859d.png)
+* SQL - Structured Query Language, ou Linguagem de Consulta Estruturada - Linguagem declarativa - 
 ## Mercado de Data
 * Engenheiro de dados - Desenho e construção, extrair os dados de fontes heterogêneas e disponibilizar para o consumo dos analistas e cientistas.
 * Cientista de dados - Modelagem/ Reconhecimento de Padrões, Predição - técnicas de modelagem.
