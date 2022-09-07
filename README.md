@@ -2,13 +2,16 @@
 ## Banco de Dados
 Um banco de dados é uma coleção organizada de informações - ou dados - estruturadas, normalmente armazenadas eletronicamente em um sistema de computador.
 Representa o mundo real, Tem coerência, Tem um propósito
-* Tipos de Bancos de Dados
-  - Bancos de dados relacionais
-  - Bancos de dados não-relacionais
-  - Bancos de dados orientados a objetos
-  - Bancos de dados OLTP
-  - Bancos de dados distribuídos
-  - Outros.
+
+Tipos de Bancos de Dados
+    
+    * Bancos de dados relacionais;
+    * Bancos de dados não-relacionais;
+    * Bancos de dados orientados a objetos;
+    * Bancos de dados OLTP;
+    * Bancos de dados distribuídos;
+    * Outros.;
+
 ## SGBD - Sistema de Gerenciamento de Banco de Dados(DBMS Database Manager Sistem)
   Abordagem normal o próprio sistema gerência os dados, isso é trabalhoso, se mais de uma aplicação precisar acessar os dados fica trabalhoso.
 * Vantagens
