@@ -11,7 +11,19 @@ Tipos de Bancos de Dados
     * Bancos de dados OLTP;
     * Bancos de dados distribuídos;
     * Outros.;
-
+## Arquitetura de Banco de Dados
+ Modelos:
+* Modelo de dados conceitual - MER - Modelo Entitade Relacionamento - Visão Alto Nível: Entidades, Atributos, Relacionamentos;
+* Modelo de dados  de implementação - Representacional - Está entre o físico e o de alto nível - Constrains e Operações;
+* Modelo de dados físico - Especialista - como os arquivos serão persistidos;
+* Esquema: Descrição do BD - Estrutura dos dados a serem inseridos - Construct
+  - Three-Schema 
+  - Schema nível Interno - Modelos de dados físicos - Físico.
+  - Schema nível Conceitual - Modelo de Implementação - Entidades, Operações, Constrains, Relacionamentos - Lógico.
+* Linguagens
+  - DDL - Data Definition Language - Definição de dados
+  - DML - Alto nível(Não procedural) e Baixo nível(Procedural).
+Meta dados: Descrição do esquema - Construtores - Constrains(Regras);
 ## SGBD - Sistema de Gerenciamento de Banco de Dados(DBMS Database Manager Sistem)
   Abordagem normal o próprio sistema gerência os dados, isso é trabalhoso, se mais de uma aplicação precisar acessar os dados fica trabalhoso.
 * Vantagens
@@ -64,4 +76,6 @@ Representação, Modelo, Referência - Possui foco na descrição e relacionamen
 * Analista de Dados - Criação de dashboards, apresentação visual dos dados, busca entender o comportamento do negócio através dos dados.
 * Data driven - análise de dados voltada para a estratégia da empresa onde o consumidor é o centro do negócio.
 * No SQL - surge para tratar o gap deixado pelo Modelo Relacional.
-
+## Instalando o MySQL
+Para conectar ao BD pelo Shell do MySQL usa-se \connect root@localhost:3306 -
+Para mudar os comandos para SQL usa-se \sql -
